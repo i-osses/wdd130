@@ -1,0 +1,43 @@
+
+.form-container {
+  width: 450px;
+  margin: 0 auto;
+  background-color: rgba(38, 194, 194, 0.155);
+  padding: 25px;
+}
+h1{
+  text-align: center;
+  
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.number{
+  color: #0056b3;
+  font-weight: 800;
+}
+
+label{
+  margin: 5px 0px;
+}
+
+.submit_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.submit_btn:hover {
+  background-color: #0056b3;
+}
