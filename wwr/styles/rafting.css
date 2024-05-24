@@ -16,7 +16,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   
@@ -206,4 +206,109 @@ footer img {
   display: flex;
   justify-content: flex-end;
 
+}
+
+.company_info{
+  display: flex;
+  padding-top: 7rem;
+  border:  1px solid #222;
+  margin-bottom: 25px;
+  padding-bottom: 25px; 
+}
+
+.address{
+  margin: 25px 0 0 auto;
+  font-size: large;
+}
+.address p{
+  padding: 5px;
+}
+
+.map{
+
+  margin: 0 0 0px auto;
+
+}
+.gallery p {
+  padding: 0;
+}
+
+.employee{
+  margin: 25px 0;
+}
+
+.employee h2{
+  text-align: center;
+  padding: 25px;
+}
+
+.form-container {
+  width: 450px;
+  margin: 0 auto;
+  background-color: rgba(38, 194, 194, 0.155);
+  padding: 25px;
+}
+h1{
+  text-align: center;
+  
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.number{
+  color: #0056b3;
+  font-weight: 800;
+}
+
+label{
+  margin: 5px 0px;
+}
+
+.radio-options, .newsletter{
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin: 25px 0;
+
+}
+
+.radio-options{
+  margin-right: 20px;
+}
+
+.submit_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea{
+  resize: none;
+}
+
+.submit_btn:hover {
+  background-color: #0056b3;
+}
+
+.form h2{
+  text-align: center;
+  padding: 25px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 40
 }
