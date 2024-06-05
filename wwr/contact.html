@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Get in touch with us through our Contact Us page. We are here to assist you with any inquiries, feedback, or support. Contact us via our online form." />
     <meta name="author" content="Ignacio Osses" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/rafting.css" />
     <title>Wild Waters Adventures - Contact Us</title>
   </head>
@@ -24,96 +26,141 @@
     </header>
 
     <main>
-    
       <div class="hero">
         <h1>Wild Waters Excitement Awaits!</h1>
       </div>
-  
 
-      
-    <section class="company_info">
+      <section class="company_info">
+        <div class="address">
+          <h3>
+            <span class="material-symbols-outlined"> location_on </span>Address:
+          </h3>
+          <address>
+            <p>15 Riverside Street,</p>
+            <p>Whitewaters Town,</p>
+            <p>Chile.</p>
+          </address>
+          <p>
+            <span class="material-symbols-outlined"> call </span>
+            <a href="tel:+1234567890">+569 1234 1234 </a>
+          </p>
 
-      <div class="address">
-      <h3><span class="material-symbols-outlined">
-        location_on
-        </span>Address:</h3>
-        <address>
-          
-          <p>15 Riverside Street,</p>
-          <p>Whitewaters Town,</p>
-          <p>Chile.</p>
-        </address>
-        <p><span class="material-symbols-outlined">
-          call
-          </span>
-          <a href="tel:+1234567890">+569 1234 1234 </a> 
-        </p>
+          <p>
+            <span class="material-symbols-outlined"> mail </span>
+            <a href="mailto:contact@wildwaters.com">contact@wildwaters.com</a>
+          </p>
+        </div>
 
-        <p><span class="material-symbols-outlined">
-          mail
-          </span>
-          <a href="mailto:contact@wildwaters.com">contact@wildwaters.com</a>
-        </p>
-      </div>
+        <div class="map">
+          <!-- <iframe src="https://www.google.com/maps/d/embed?mid=11xF4Ab6TK1lIFtC8_PTESY3PDnCHKdo&ehbc=2E312F&noprof=1" width="440" height="380"></iframe> -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3321.8304664441002!2d-70.35878755085953!3d-33.63563753002519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDM4JzA5LjMiUyA3MMKwMjEnMjQuOSJX!5e0!3m2!1sen!2scl!4v1716592846552!5m2!1sen!2scl"
+            width="440"
+            height="380"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <section class="employee">
+        <h2>Employees</h2>
+        <div class="gallery">
+          <figure>
+            <img
+              src="images/employee/Ji.png"
+              alt="James, rafting guide image" />
+            <figcaption>
+              James Smith <br /><span class="span_employee">Rafting Guide</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/employee/m.png"
+              alt="Emily, safety kayaker image" />
+            <figcaption>
+              Emily Rosenberg<br /><span class="span_employee"
+                >Safety Kayaker</span
+              >
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee/Ig.png" alt="Iggy, trip leader image" />
+            <figcaption>
+              Iggy Osses<br /><span class="span_employee">Trip Leader</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="form">
+        <h2 id="contact">Conctact Form</h2>
+        <div class="form-container">
+          <form>
+            <label for="user">User Name</label>
+            <input
+              type="text"
+              id="user"
+              name="user"
+              placeholder="name" /><br /><br />
 
-      <div class="map">
-        <!-- <iframe src="https://www.google.com/maps/d/embed?mid=11xF4Ab6TK1lIFtC8_PTESY3PDnCHKdo&ehbc=2E312F&noprof=1" width="440" height="380"></iframe> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3321.8304664441002!2d-70.35878755085953!3d-33.63563753002519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDM4JzA5LjMiUyA3MMKwMjEnMjQuOSJX!5e0!3m2!1sen!2scl!4v1716592846552!5m2!1sen!2scl" width="440" height="380" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+            <label for="email">e-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="e-mail" /><br />
 
-    </section>
-    <section class="employee">
-    <h2>Employees</h2>
-    <div class="gallery">
-      <figure><img src="images/employee/Ji.png" alt="James, rafting guide image" /><figcaption>James Smith <br><span class="span_employee">Rafting Guide</span></figcaption></figure>
-      <figure><img src="images/employee/m.png" alt="Emily, safety kayaker image" /><figcaption>Emily Rosenberg<br><span class="span_employee">Safety Kayaker</span></figcaption></figure>
-      <figure><img src="images/employee/Ig.png" alt="Iggy, trip leader image" /><figcaption>Iggy Osses<br><span class="span_employee">Trip Leader</span></figcaption></figure>
-    </div>
-  </section>
-    <section class="form">
+            <div class="radio-options">
+              <input
+                type="radio"
+                id="general"
+                name="purpose"
+                value="General Inquiry" />
+              <label for="general">General Inquiry</label>
+              <input
+                type="radio"
+                id="reservation"
+                name="purpose"
+                value="Reservation Question" />
+              <label for="reservation">Reservation Question</label>
+              <input
+                type="radio"
+                id="suggestion"
+                name="purpose"
+                value="Website Suggestion" />
+              <label for="suggestion">Website Suggestion</label>
+            </div>
 
-      <h2>Conctact Form</h2>
-  <div class="form-container">
+            <label for="user_message">Message</label>
+            <textarea
+              name="user_message"
+              id="user_message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"></textarea>
 
-  <form>
+            <div class="newsletter">
+              <label for="newsletter"
+                >Please subscribe me to the monthly newsletter</label
+              >
+              <input type="checkbox" name="newsletter" id="newsletter" />
+            </div>
 
-    <label for="user">User Name</label>
-    <input type="text" id="user" name="user" placeholder="name"><br><br>
-
-    <label for="email">e-mail</label>
-    <input type="email" id="email" name="email" placeholder="e-mail"><br>
-
-    <div class="radio-options">
-      <input type="radio" id="general" name="purpose" value="General Inquiry">
-      <label for="general">General Inquiry</label>
-      <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-      <label for="reservation">Reservation Question</label>
-      <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-      <label for="suggestion">Website Suggestion</label>
-    </div>
-    
-
-    <label for="user_message">Message</label>
-    <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="Your Message"></textarea>
-
-    <div class="newsletter">
-    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-    <input type="checkbox" name="newsletter" id="newsletter">
-    </div>
-
-    <label for="submit-btn"></label>
-    <button type="submit" class="submit_btn" id="submit-btn">Send Your Information</button>
-  </form>
-</div>
-
-    </section>
-
-
+            <label for="submit-btn"></label>
+            <button type="submit" class="submit_btn" id="submit-btn">
+              Send Your Information
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
       <div>
-        <a href="https://app.moqups.com/ol7wToGUHS3WKvxMdUaVJQ4GuWjetSMo/view/page/ad12de680" target="_blank"> <h3 class="wireframe">Wireframe</h3></a>
+        <a
+          href="https://app.moqups.com/ol7wToGUHS3WKvxMdUaVJQ4GuWjetSMo/view/page/ad12de680"
+          target="_blank">
+          <h3 class="wireframe">Wireframe</h3></a
+        >
       </div>
       <p>
         &copy; 2024 Wild Waters Adventures. All rights reserved. Created by

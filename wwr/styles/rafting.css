@@ -19,11 +19,9 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
-  
   font-family: var(--paragraph-font);
   max-width: 1000px;
   padding: 20px;
@@ -47,11 +45,11 @@ header {
   background-color: var(--primary-color);
 }
 
-header img{
+header img {
   margin: 0 2rem;
 }
 
-.navigation{
+.navigation {
   display: flex;
   justify-content: right;
   margin: 2rem;
@@ -70,12 +68,11 @@ p {
   text-decoration: none;
   padding: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
-
 }
 
-.navigation a:hover{
+.navigation a:hover {
   background-color: var(--secondary-color);
-  color: white; 
+  color: white;
   border-radius: 0.5rem;
 }
 
@@ -113,8 +110,7 @@ h1 {
   height: auto;
 }
 
-.history{
-  
+.history {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,24 +118,24 @@ h1 {
   padding: 20px;
   border: 1px solid black;
 }
-.history h2{
+.history h2 {
   text-align: center;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: start;
 }
 
-.content p{
+.content p {
   text-align: justify;
   flex: 1;
   max-width: 400px;
   margin: 0 10px;
 }
 
-.content img{
+.content img {
   max-width: 100%;
   margin: 0 10px;
 }
@@ -163,7 +159,6 @@ h1 {
 .gallery img {
   max-width: 100%;
   height: 150px;
-
 }
 
 .gallery figcaption {
@@ -174,27 +169,23 @@ h1 {
   text-align: center;
 }
 
-
-
-footer{
+footer {
   display: flex;
   background-color: var(--primary-color);
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   margin: 1rem auto;
-  
 }
 
-footer div{
+footer div {
   flex: 0.5;
 }
 
-footer p{
+footer p {
   flex: 1;
   text-align: center;
   color: #fff;
-
 }
 
 footer img {
@@ -203,12 +194,12 @@ footer img {
   transition: width 0.3s ease-in-out;
 }
 
-footer img:hover{
+footer img:hover {
   width: 60px;
   height: auto;
 }
 
-.wireframe{
+.wireframe {
   color: #ccc;
 }
 
@@ -216,48 +207,42 @@ footer img:hover{
   flex: 0.5;
   display: flex;
   justify-content: flex-end;
-
 }
 
-
-.company_info{
+.company_info {
   display: flex;
   padding-top: 7rem;
-  border:  1px solid #222;
+  border: 1px solid #222;
   margin-bottom: 25px;
-  padding-bottom: 25px; 
+  padding-bottom: 25px;
 }
 
-.address{
+.address {
   margin: 25px 0 0 auto;
   font-size: large;
 }
-.address p{
+.address p {
   padding: 5px;
 }
 
-.map{
-
+.map {
   margin: 0 0 0px auto;
-
 }
 .gallery p {
   padding: 0;
 }
 
-.employee{
+.employee {
   margin: 25px 0;
 }
 
-.employee h2{
+.employee h2 {
   text-align: center;
   padding: 25px;
 }
 
-.span_employee{
-  
+.span_employee {
   background-color: #0056b3;
-
 }
 
 .form-container {
@@ -266,12 +251,13 @@ footer img:hover{
   background-color: rgba(38, 194, 194, 0.155);
   padding: 25px;
 }
-h1{
+h1 {
   text-align: center;
-  
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 5px;
@@ -279,24 +265,24 @@ input, select, textarea {
   border-radius: 5px;
   box-sizing: border-box;
 }
-.number{
+.number {
   color: #0056b3;
   font-weight: 800;
 }
 
-label{
+label {
   margin: 5px 0px;
 }
 
-.radio-options, .newsletter{
+.radio-options,
+.newsletter {
   display: flex;
   height: 20px;
   align-items: center;
   margin: 25px 0;
-
 }
 
-.radio-options{
+.radio-options {
   margin-right: 20px;
 }
 
@@ -310,7 +296,7 @@ label{
   cursor: pointer;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
@@ -318,16 +304,72 @@ textarea{
   background-color: #0056b3;
 }
 
-.form h2{
+.form h2 {
   text-align: center;
   padding: 25px;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 200,
-  'opsz' 40
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 200, "opsz" 40;
 }
 
+/* Trips */
+#trip_tittle {
+  display: block;
+  margin-top: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+
+.trip {
+  text-align: center;
+  width: 30%;
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+}
+
+.trip-table {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+.trip-table th {
+  background-color: #f4f4f4;
+}
